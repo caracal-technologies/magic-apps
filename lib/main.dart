@@ -51,6 +51,12 @@ class MagicAppsHome extends StatelessWidget {
               const Expanded(
                 child: ColoredBox(
                   color: Colors.white,
+                  child: Center(
+                    child: Text(
+                      'PASAKHABO',
+                      style: TextStyle(fontSize: 24),
+                    ),
+                  ),
                 ),
               ),
             ],
